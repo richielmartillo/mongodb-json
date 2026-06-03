@@ -1,0 +1,235 @@
+[
+  {
+    "nome": "Richard Balestrim",
+    "nota": 9,
+    "nivel": ["QA em formação", "Intermediário"],
+    "curso": ["QA", "Introdução à Programação"],
+    "status": "Aprovado",
+    "desempenho": "Bom desempenho em testes de software, com evolução constante em automação e organização dos projetos."
+  },
+  {
+    "nome": "Sandokan",
+    "nota": 7,
+    "nivel": "Estratégico",
+    "curso": ["C", "C++", "Cibersegurança"],
+    "status": "Aprovado",
+    "desempenho": "Aluno estratégico e corajoso, mas precisa melhorar a disciplina nos estudos técnicos."
+  },
+  {
+    "nome": "Robinson Crusoe",
+    "nota": 8,
+    "nivel": "Autodidata",
+    "curso": ["Engenharia de Dados", "JavaScript (Node.js)", "Python"],
+    "status": "Aprovado",
+    "desempenho": "Aluno independente, aprende bem sozinho e consegue resolver problemas com criatividade."
+  },
+  {
+    "nome": "Conde de Monte Cristo",
+    "nota": 10,
+    "nivel": "Estratégico",
+    "curso": ["EArquitetura de Nuvem", "Engenharia de Confiabilidade"],
+    "status": "Aprovado",
+    "desempenho": "Excelente planejamento, alta capacidade analítica e ótimo desempenho em projetos complexos."
+  },
+  {
+    "nome": "Leonardo da Vinci",
+    "nota": 10,
+    "nivel": "Gênio",
+    "curso": [
+      "Engenharia de Software",
+      "Inteligência Artificial",
+      "Design de Interfaces"
+    ],
+    "dataMatricula": "03-06-2026",
+    "status": "Aprovado",
+    "desempenho": "Aluno extremamente criativo, com grande facilidade para conectar tecnologia, arte e inovação."
+  },
+  {
+    "nome": "Tomás de Aquino",
+    "nota": 7,
+    "nivel": "Avançado",
+    "curso": ["Lógica Computacional", "Análise de Sistemas", "Banco de Dados"],
+    "status": "Aprovado",
+    "desempenho": "Tem raciocínio lógico forte, mas apresenta dificuldade para se adaptar à prática moderna da programação."
+  },
+  {
+    "nome": "Arquimedes",
+    "nota": 8,
+    "nivel": "Gênio",
+    "curso": [
+      "Algoritmos",
+      "Matemática Computacional",
+      "Engenharia de Software"
+    ],
+    "status": "Aprovado",
+    "desempenho": "Aluno genial em matemática, mas não se identificou muito com a metodologia da aula e perdeu rendimento."
+  },
+  {
+    "nome": "Ada Lovelace",
+    "nota": 10,
+    "nivel": "Avançado",
+    "curso": ["Programação", "Algoritmos", "Ciência da Computação"],
+    "status": "Aprovado",
+    "desempenho": "Excelente desempenho em programação e algoritmos, com grande visão lógica e capacidade de abstração."
+  },
+  {
+    "nome": "Hermione Granger",
+    "nota": 10,
+    "nivel": "Avançado",
+    "curso": ["Cibersegurança", "Análise de Sistemas", "Automação de Testes"],
+    "status": "Aprovado",
+    "desempenho": "Muito dedicada, organizada e detalhista, com ótimo desempenho em testes e análise de sistemas."
+  },
+  {
+    "nome": "Hipátia de Alexandria",
+    "nota": 10,
+    "nivel": "Avançado",
+    "curso": ["Ciência de Dados", "Algoritmos", "Matemática Computacional"],
+    "status": "Aprovado",
+    "desempenho": "Excelente raciocínio matemático e analítico, com ótimo desempenho em ciência de dados, algoritmos e lógica computacional."
+  },
+  {
+    "nome": "Daenerys Targaryen",
+    "nota": 8,
+    "nivel": "Líder",
+    "curso": [
+      "Gestão de Projetos de TI",
+      "Cibersegurança",
+      "Análise de Sistemas"
+    ],
+    "status": "Aprovado",
+    "desempenho": "Boa liderança e visão estratégica, mas precisa melhorar a colaboração em equipe e o controle emocional."
+  },
+  {
+    "nome": "Alan Turing",
+    "nota": 10,
+    "nivel": "Gênio Computacional",
+    "curso": [
+      "Ciência da Computação",
+      "Criptografia",
+      "Inteligência Artificial"
+    ],
+    "status": "Aprovado",
+    "desempenho": "Excelente raciocínio lógico e grande capacidade para resolver problemas complexos em computação e segurança da informação."
+  },
+  {
+    "nome": "Júlio César",
+    "nota": 8,
+    "nivel": "Líder Estratégico",
+    "curso": [
+      "Gestão de Projetos de TI",
+      "Análise de Sistemas",
+      "Segurança da Informação"
+    ],
+    "status": "Aprovado",
+    "desempenho": "Boa liderança e visão estratégica, mas precisa melhorar a adaptação às ferramentas modernas de tecnologia."
+  },
+  {
+    "nome": "Aquiles",
+    "nota": 6,
+    "nivel": "Estratégico",
+    "curso": [
+      "Segurança da Informação",
+      "Gestão de Riscos",
+      "Estratégia em TI"
+    ],
+    "status": "Desaprovado",
+    "desempenho": "Aluno determinado, mas não se adaptou bem às atividades de design e teve dificuldade para trabalhar com detalhes visuais."
+  },
+  {
+    "nome": "Espártaco",
+    "nota": 8,
+    "nivel": "Guerreiro Estratégico",
+    "curso": [
+      "Gestão de Projetos de TI",
+      "Segurança da Informação",
+      "Análise de Sistemas"
+    ],
+    "status": "Aprovado",
+    "desempenho": "Boa liderança e capacidade de organização, com forte senso estratégico, mas precisa melhorar a adaptação às ferramentas digitais."
+  },
+  {
+    "nome": "Ragnar Lodbrok",
+    "nota": 8,
+    "nivel": "Líder Rebelde",
+    "curso": ["Segurança da Informação", "Cibersegurança", "Estratégia em TI"],
+    "status": "Aprovado",
+    "desempenho": "Aluno estratégico e corajoso, com bom desempenho em segurança e gestão de riscos, mas precisa melhorar a disciplina em ambientes mais técnicos."
+  },
+  {
+    "nome": "Sun Tzu",
+    "nota": 9,
+    "nivel": "Estrategista",
+    "curso": [
+      "Segurança da Informação",
+      "Gestão de Riscos",
+      "Análise Estratégica"
+    ],
+    "status": "Aprovado",
+    "desempenho": "Excelente em estratégia, análise de riscos e tomada de decisão, com desempenho forte em segurança da informação."
+  },
+  {
+    "nome": "Genghis Khan",
+    "nota": 8,
+    "nivel": "Conquistador Estratégico",
+    "curso": [
+      "Governança de TI",
+      "Arquitetura de Sistemas",
+      "Liderança em Tecnologia"
+    ],
+    "status": "Aprovado",
+    "desempenho": "Aluno estratégico e muito determinado, com boa visão de liderança e segurança, mas precisa melhorar a colaboração em ambientes organizados."
+  },
+  {
+    "nome": "Alexandre, o Grande",
+    "nota": 9,
+    "nivel": "Conquistador Estratégico",
+    "curso": [
+      "Gestão de Projetos de TI",
+      "Transformação Digital",
+      "Análise de Sistemas"
+    ],
+    "status": "Aprovado",
+    "desempenho": "Aluno ambicioso e estratégico, com grande capacidade de liderança, mas precisa melhorar a paciência e a escuta da equipe."
+  },
+  {
+    "nome": "Ricardo Coração de Leão",
+    "nota": 5,
+    "nivel": "Iniciante",
+    "curso": ["Front-end", "HTML", "CSS"],
+    "status": "Desaprovado",
+    "desempenho": "Aluno com iniciativa, mas teve dificuldade para organizar os estudos e entregar os projetos no prazo."
+  },
+  {
+    "nome": "Joana d'Arc",
+    "nota": 8,
+    "nivel": "Determinada",
+    "curso": ["UX Design", "Prototipagem", "Design de Interfaces"],
+    "status": "Aprovado",
+    "desempenho": "Aluna determinada e comunicativa, com bom desempenho em experiência do usuário e criação de interfaces simples."
+  },
+  {
+    "nome": "Eleanor da Aquitânia",
+    "nota": 9,
+    "nivel": "Avançada",
+    "curso": ["UI Design", "UX Research", "Design Responsivo"],
+    "status": "Aprovado",
+    "desempenho": "Aluna organizada e criativa, com ótimo desempenho em design visual e experiência do usuário."
+  },
+  {
+    "nome": "Saladino",
+    "nota": 8,
+    "nivel": "Intermediário",
+    "curso": ["C#", "Lógica de Programação", "Desenvolvimento Desktop"],
+    "status": "Aprovado",
+    "desempenho": "Aluno disciplinado, com bom raciocínio lógico, mas ainda precisa praticar mais a sintaxe da linguagem C#."
+  },
+  {
+    "nome": "Marco Polo",
+    "nota": 8,
+    "nivel": "Explorador Digital",
+    "curso": ["Front-end", "JavaScript Básico", "Design Responsivo"],
+    "status": "Aprovado",
+    "desempenho": "Aluno curioso e observador, com facilidade para aprender novas ferramentas e criar páginas interativas."
+  }
+]
