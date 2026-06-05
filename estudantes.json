@@ -231,5 +231,17 @@
     "curso": ["Front-end", "JavaScript Básico", "Design Responsivo"],
     "status": "Aprovado",
     "desempenho": "Aluno curioso e observador, com facilidade para aprender novas ferramentas e criar páginas interativas."
-  }
+  },
+  {
+  "nome": "Sun Zungão",
+  "nota": 9,
+  "nivel": "Estrategista",
+  "curso": [
+    "Segurança da Informação",
+    "Gestão de Riscos",
+    "Análise Estratégica"
+  ],
+  "status": "Aprovado",
+  "desempenho": "Excelente em estratégia, análise de riscos e tomada de decisão, com desempenho forte em segurança da informação."
+}
 ]
