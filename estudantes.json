@@ -243,5 +243,20 @@
   ],
   "status": "Aprovado",
   "desempenho": "Excelente em estratégia, análise de riscos e tomada de decisão, com desempenho forte em segurança da informação."
+},
+{
+  "_id": {
+    "$oid": "6a2348be3a7472ef2baec623"
+  },
+  "nome": "Sandokan",
+  "nota": 7,
+  "nivel": "Estratégico",
+  "curso": [
+    "C",
+    "C++",
+    "cibersegurança"
+  ],
+  "status": "Aprovado",
+  "desempenho": "Aluno estratégico e corajoso, mas precisa melhorar a disciplina nos estudos técnicos."
 }
 ]
