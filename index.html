@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Módulo 24 - MongoDB</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="matrix-bg"></div>
+
+  <main class="container">
+    <header class="hero">
+      <p class="tag">EBAC • Módulo 24</p>
+      <h1>MongoDB JSON Lab</h1>
+      <p>
+        Projeto desenvolvido para praticar documentos JSON, coleções,
+        estudantes, professores e consultas no MongoDB.
+      </p>
+    </header>
+
+    <section class="painel">
+      <h2>Arquivos do projeto</h2>
+
+      <div class="botoes">
+        <button onclick="carregarEstudantes()">Ver estudantes</button>
+        <button onclick="carregarProfessores()">Ver professores</button>
+        <button onclick="mostrarConsultas()">Ver consultas</button>
+        <button onclick="limparResultado()">Limpar tela</button>
+      </div>
+    </section>
+
+    <section class="resultado-area">
+      <h2 id="tituloResultado">Resultado</h2>
+      <div id="resultado" class="grid"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

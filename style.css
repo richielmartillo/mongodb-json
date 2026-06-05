@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #0b0f1a;
+  color: #f8f8f2;
+  overflow-x: hidden;
+}
+
+.matrix-bg {
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at top left, rgba(80, 250, 123, 0.15), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(189, 147, 249, 0.18), transparent 35%),
+    linear-gradient(135deg, #09090f, #111827, #0b0f1a);
+  z-index: -2;
+}
+
+.matrix-bg::after {
+  content: "010101 MongoDB JSON QA Cypress SQL Node.js 101010";
+  position: fixed;
+  inset: 0;
+  color: rgba(80, 250, 123, 0.08);
+  font-size: 22px;
+  letter-spacing: 8px;
+  line-height: 60px;
+  word-spacing: 20px;
+  animation: matrixMove 20s linear infinite;
+  z-index: -1;
+}
+
+@keyframes matrixMove {
+  from {
+    transform: translateY(-200px);
+  }
+  to {
+    transform: translateY(200px);
+  }
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: 40px auto;
+}
+
+.hero {
+  padding: 40px;
+  border: 1px solid rgba(80, 250, 123, 0.35);
+  border-radius: 18px;
+  background: rgba(17, 24, 39, 0.88);
+  box-shadow: 0 0 35px rgba(80, 250, 123, 0.12);
+  backdrop-filter: blur(8px);
+}
+
+.tag {
+  color: #bd93f9;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+h1 {
+  color: #50fa7b;
+  font-size: 42px;
+  margin-bottom: 12px;
+  text-shadow: 0 0 12px rgba(80, 250, 123, 0.55);
+}
+
+h2 {
+  color: #8be9fd;
+  margin-bottom: 18px;
+}
+
+.hero p {
+  max-width: 760px;
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+.painel,
+.resultado-area {
+  margin-top: 28px;
+  padding: 28px;
+  border-radius: 18px;
+  background: rgba(17, 24, 39, 0.88);
+  border: 1px solid rgba(139, 233, 253, 0.22);
+}
+
+.botoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+button {
+  background: linear-gradient(135deg, #50fa7b, #8be9fd);
+  color: #0b0f1a;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 800;
+  transition: 0.25s;
+  box-shadow: 0 0 18px rgba(80, 250, 123, 0.25);
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 25px rgba(139, 233, 253, 0.45);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 16px;
+  background: linear-gradient(160deg, rgba(15, 23, 42, 0.98), rgba(30, 41, 59, 0.92));
+  border: 1px solid rgba(80, 250, 123, 0.25);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  transition: 0.25s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #50fa7b;
+  box-shadow: 0 0 28px rgba(80, 250, 123, 0.18);
+}
+
+.card h3 {
+  color: #50fa7b;
+  margin-bottom: 12px;
+  font-size: 21px;
+}
+
+.card p {
+  color: #e5e7eb;
+  margin-bottom: 8px;
+  line-height: 1.45;
+}
+
+.card strong {
+  color: #8be9fd;
+}
+
+.status-aprovado {
+  color: #50fa7b;
+  font-weight: bold;
+}
+
+.status-desaprovado {
+  color: #ff5555;
+  font-weight: bold;
+}
+
+.codigo {
+  white-space: pre-wrap;
+  background: #050816;
+  border: 1px solid rgba(189, 147, 249, 0.35);
+  color: #50fa7b;
+  padding: 18px;
+  border-radius: 14px;
+  overflow-x: auto;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .hero,
+  .painel,
+  .resultado-area {
+    padding: 22px;
+  }
+}

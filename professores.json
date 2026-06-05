@@ -1,8 +1,5 @@
 [
     {
-  "_id": {
-    "$oid": "6a20bfce9fec734419f653e7"
-  },
   "nome": "Morpheus",
   "origem": "Matrix",
   "curso": [
@@ -13,9 +10,6 @@
   "metodologia": "Ensino baseado em desafios, escolha consciente e prática intensiva"
 },
 {
-  "_id": {
-    "$oid": "6a21d725d9b929c4e155c6b4"
-  },
   "nome": "Emmett Brown",
   "apelido": "Doc Brown",
   "origem": "De Volta para o Futuro",
@@ -28,9 +22,6 @@
   "metodologia": "Ensino baseado em experimentos, criatividade e resolução prática de problemas"
 },
 {
-  "_id": {
-    "$oid": "6a21d847d9b929c4e155c6b6"
-  },
   "nome": "Josh Futturman",
   "origem": "Future Man",
   "funcao": "Professor auxiliar",
