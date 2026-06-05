@@ -149,7 +149,7 @@
     "desempenho": "Boa liderança e capacidade de organização, com forte senso estratégico, mas precisa melhorar a adaptação às ferramentas digitais."
   },
   {
-    "nome": "Ragnar Lodbrok",
+    "nome": "Ragnar Lothbrok",
     "nota": 8,
     "nivel": "Líder Rebelde",
     "curso": ["Segurança da Informação", "Cibersegurança", "Estratégia em TI"],
@@ -245,10 +245,7 @@
   "desempenho": "Excelente em estratégia, análise de riscos e tomada de decisão, com desempenho forte em segurança da informação."
 },
 {
-  "_id": {
-    "$oid": "6a2348be3a7472ef2baec623"
-  },
-  "nome": "Sandokan",
+  "nome": "ricardo arjona",
   "nota": 7,
   "nivel": "Estratégico",
   "curso": [
@@ -258,5 +255,89 @@
   ],
   "status": "Aprovado",
   "desempenho": "Aluno estratégico e corajoso, mas precisa melhorar a disciplina nos estudos técnicos."
+},
+{
+  "nome": "Alejandro Lerner",
+  "nota": 8,
+  "nivel": "Criativo Digital",
+  "curso": [
+    "Front-end",
+    "JavaScript Básico",
+    "UX Design"
+  ],
+  "status": "Aprovado",
+  "desempenho": "Aluno criativo e sensível à experiência do usuário, com facilidade para criar interfaces visuais, mas ainda precisa praticar mais lógica de programação."
+},
+{
+  "nome": "Diego Torres",
+  "nota": 8,
+  "nivel": "Criativo Digital",
+  "curso": [
+    "Front-end",
+    "JavaScript Básico",
+    "UX Design"
+  ],
+  "status": "Aprovado",
+  "desempenho": "Aluno criativo e comunicativo, com bom desempenho em criação de interfaces e experiência do usuário, mas ainda precisa praticar mais lógica de programação."
+},
+{
+  "nome": "Alejandro Dolina",
+  "nota": 9,
+  "nivel": "Pensador Criativo",
+  "curso": [
+    "Lógica de Programação",
+    "UX Writing",
+    "Front-end"
+  ],
+  "status": "Aprovado",
+  "desempenho": "Aluno criativo e analítico, com facilidade para organizar ideias, construir narrativas digitais e aplicar lógica em projetos de programação."
+},
+{
+  "nome": "Ragnarok Lothbrok",
+  "nota": 8,
+  "nivel": "Líder Rebelde",
+  "curso": [
+    "Segurança da Informação",
+    "Cibersegurança",
+    "Estratégia em TI"
+  ],
+  "status": "Aprovado",
+  "desempenho": "Aluno estratégico e corajoso, com bom desempenho em segurança e gestão de riscos, mas precisa melhorar a disciplina em ambientes mais técnicos."
+},
+{
+  "nome": "Bjorn Lothbrok",
+  "nota": 8,
+  "nivel": "Explorador Estratégico",
+  "curso": [
+    "Front-end",
+    "JavaScript Básico",
+    "Design Responsivo"
+  ],
+  "status": "Aprovado",
+  "desempenho": "Aluno determinado e explorador, com facilidade para aprender novas ferramentas, mas precisa melhorar a organização do código e a atenção aos detalhes."
+},
+{
+  "nome": "Ubbe Ragnarsson Lothbrok",
+  "nota": 8,
+  "nivel": "Explorador Digital",
+  "curso": [
+    "Front-end",
+    "UX Design",
+    "Design Responsivo"
+  ],
+  "status": "Aprovado",
+  "desempenho": "Aluno equilibrado e observador, com facilidade para entender a experiência do usuário e criar interfaces simples, mas ainda precisa praticar mais JavaScript."
+},
+{
+  "nome": "Ragnar Lodbrok",
+  "nota": 8,
+  "nivel": "Artista Digital",
+  "curso": [
+    "Design Digital",
+    "CSS Avançado",
+    "Animações Web"
+  ],
+  "status": "Aprovado",
+  "desempenho": "Aluno com forte senso visual e criatividade, com bom desempenho em estilos, animações e criação de páginas com identidade própria."
 }
 ]
