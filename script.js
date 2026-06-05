@@ -85,7 +85,7 @@ db.estudantes.find({}, { nome: 1, _id: 0 }).sort({ nome: 1 })
 
 // Buscar estudante pelo nome
 db.estudantes.find(
-  { nome: /rich/i },
+  { nome: "Richard Balestrim"},
   { nome: 1, nota: 1, nivel: 1, curso: 1, _id: 0 }
 )
 
