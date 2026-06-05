@@ -1,0 +1,45 @@
+[
+    {
+  "_id": {
+    "$oid": "6a20bfce9fec734419f653e7"
+  },
+  "nome": "Morpheus",
+  "origem": "Matrix",
+  "curso": [
+    "QA",
+    "Introdução à Programação"
+  ],
+  "especialidade": "Lógica, tecnologia e despertar digital",
+  "metodologia": "Ensino baseado em desafios, escolha consciente e prática intensiva"
+},
+{
+  "_id": {
+    "$oid": "6a21d725d9b929c4e155c6b4"
+  },
+  "nome": "Emmett Brown",
+  "apelido": "Doc Brown",
+  "origem": "De Volta para o Futuro",
+  "curso": [
+    "Introdução à Programação",
+    "C#",
+    "Front-end"
+  ],
+  "especialidade": "Invenção, lógica e experimentação tecnológica",
+  "metodologia": "Ensino baseado em experimentos, criatividade e resolução prática de problemas"
+},
+{
+  "_id": {
+    "$oid": "6a21d847d9b929c4e155c6b6"
+  },
+  "nome": "Josh Futturman",
+  "origem": "Future Man",
+  "funcao": "Professor auxiliar",
+  "curso": [
+    "Unity",
+    "C#",
+    "Desenvolvimento de Jogos"
+  ],
+  "especialidade": "Jogos digitais, lógica prática e desenvolvimento com engines",
+  "metodologia": "Ensino descontraído, baseado em tentativa e erro, prática com jogos e desafios criativos"
+}
+]
