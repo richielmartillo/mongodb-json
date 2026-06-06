@@ -1,0 +1,19 @@
+# Dependências do Node.js
+node_modules/
+
+# Arquivos de ambiente
+.env
+
+# Logs
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Pasta de build/dist
+dist/
+build/
+
+# Cache
+.cache/

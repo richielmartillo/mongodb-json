@@ -1,0 +1,27 @@
+{
+  "name": "modulo-24",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server . -p 5500",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richielmartillo/mongodb-json.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/richielmartillo/mongodb-json/issues"
+  },
+  "homepage": "https://github.com/richielmartillo/mongodb-json#readme",
+  "devDependencies": {
+    "cypress": "^15.16.0",
+    "http-server": "^14.1.1"
+  }
+}
