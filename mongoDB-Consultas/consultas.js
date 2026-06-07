@@ -57,7 +57,7 @@ db.professores.find({
 
 // 9. Liste apenas o nome e a nota dos estudantes do curso de SQL.
 db.estudantes.find(
-  { curso: "SQL" },
+  { curso: "Artista Digital" },
   { _id: 0, nome: 1, nota: 1 }
 )
 
