@@ -1,6 +1,8 @@
+/// <reference types="cypress"/>
+
 describe('Testes da página MongoDB JSON Lab', () => {
   beforeEach(() => {
-    cy.visit('http://127.0.0.1:5500')
+    cy.visit("/index.html");
   })
 
   it('deve clicar no botão Ver estudantes com sucesso', () => {

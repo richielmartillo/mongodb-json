@@ -6,7 +6,8 @@
   "scripts": {
     "start": "http-server . -p 5500",
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "cy:report": "npx cypress run --record --key db6dec13-ae2b-455d-acc8-98d0e8c713cb"
   },
   "repository": {
     "type": "git",

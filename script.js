@@ -11,12 +11,13 @@ function formatarLista(valor) {
 
 async function carregarEstudantes() {
     try {
-        const resposta = await fetch("estudantes.json");
+        const resposta = await fetch("./mongoDB/estudantes.json");
         const estudantes = await resposta.json();
 
         tituloResultado.textContent = "Lista de estudantes";
         resultado.className = "grid";
         resultado.innerHTML = "";
+
 
         estudantes.forEach((estudante) => {
             const statusClasse =
@@ -46,7 +47,7 @@ async function carregarEstudantes() {
 
 async function carregarProfessores() {
     try {
-        const resposta = await fetch("professores.json");
+        const resposta = await fetch("./mongoDB/professores.json");
         const professores = await resposta.json();
 
         tituloResultado.textContent = "Lista de professores";

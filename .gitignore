@@ -17,3 +17,6 @@ build/
 
 # Cache
 .cache/
+
+cypress/videos/
+cypress/screenshots/
