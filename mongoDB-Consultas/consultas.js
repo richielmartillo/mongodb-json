@@ -38,10 +38,22 @@ db.estudantes.find(
 db.estudantes.find({ nome: /Lothbrok/i })
 
 // 5. Selecione todos os estudantes que fazem mais de um curso.
-db.estudantes.find({
-  cursos: { $exists: true },
-  $expr: { $gt: [{ $size: "$cursos" }, 1] }
-})
+db.estudantes.find(
+  {
+    curso: { $exists: true },
+    $expr: { $gt: [{ $size: "$curso" }, 1] }
+  },
+  { _id: 0, nome: 1, curso: 1 }
+)
+
+// 5. Seleciona estudantes que fazem C++ e Cibersegurança, com nota 7 ou maior.
+db.estudantes.find(
+  {
+    curso: { $all: [/^C\+\+$/i, /^Cibersegurança$/i] },
+    nota: { $gte: 7 }
+  },
+  { _id: 0, nome: 1, curso: 1, nota: 1 }
+).sort({ nota: -1 })
 
 // 6. Selecione todos os professores com cargo igual a Professor.
 db.professores.find({ cargo: "Professor" })
