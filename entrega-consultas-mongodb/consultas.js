@@ -86,7 +86,6 @@ db.professores.find(
 )
 
 
-
 // 14. Selecione todos os professores que lecionam mais de um curso.
 db.professores.find({
   cursos: { $exists: true },
