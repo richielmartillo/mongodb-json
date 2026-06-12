@@ -26,10 +26,9 @@ db.estudantes.find({ nota: { $gte: 7 } })
 
 // 6. Seleciona estudantes com nota entre 9 e 10.
 db.estudantes.find(
-  { nota: { $gte: 7, $gte: 8 } },
+  { nota: { $gte: 9, $lte: 10 } },
   { _id: 0, nome: 1, nota: 1, curso: 1 }
 ).sort({ nota: 1 })
-
 
 // 7. Seleciona estudantes com nota entre 9 e 10 que fazem o curso de Análise de Seistemas.
 db.estudantes.find(
